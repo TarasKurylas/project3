@@ -13,7 +13,7 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -78,11 +78,6 @@ ul {
     color: var(--blue);
 }
 
-.logo-footer {
-    padding-top: 60px;
-    padding-bottom: 28px;
-}
-
 .nav {
     color: var(--grey);
     text-decoration: none;
@@ -110,11 +105,13 @@ ul {
 }
 
 .border-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .border-portfolio {
-    border: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .main-nav {
@@ -182,9 +179,12 @@ ul {
     letter-spacing: 0.06em;
 }
 
+.hero-list {
+    padding: 200px 15px
+}
+
 .hero-title {
-    padding-top: 200px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .button {
@@ -210,26 +210,24 @@ ul {
     background-color: #2F303A;
 }
 
-.button-hero {
-    margin-bottom: 200px;
-}
-
 .button-a {
-            display: inline-block;
+        color: var(--black);
+        background-color: #F5F4FA;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        text-align: center;
+
             padding: 6px 22px;
-            margin-left: 8px;
             border-radius: 4px;
-            
-            color: var(--black);
-            background-color: #F5F4FA;
-            font-family: Roboto, sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.62;
-            letter-spacing: 0.5px;
-            text-decoration: none;
-            text-align: center;
         }
+
+.button-title {
+    margin-left: 8px;
+}
 
 .button-a:hover,
 .button-a:focus {
@@ -257,7 +255,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
 
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .section-work {
@@ -352,6 +350,11 @@ margin-right: 0;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 6%;
+
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 4px;
 }
 
 .filtrs {
@@ -360,12 +363,17 @@ margin-right: 0;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 3%;
+
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
+
+.footer-title {
+    padding: 60px 15px;
 }
 
 .address {
-    padding-bottom: 60px;
+    margin-top: 28px;
 }
-
-
-
 
