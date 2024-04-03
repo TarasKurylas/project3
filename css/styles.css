@@ -350,11 +350,6 @@ margin-right: 0;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 6%;
-
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-top: 20px;
-    padding-bottom: 4px;
 }
 
 .filtrs {
@@ -363,10 +358,6 @@ margin-right: 0;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 3%;
-
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 20px;
 }
 
 .footer-title {
@@ -377,3 +368,10 @@ margin-right: 0;
     margin-top: 28px;
 }
 
+.box-title {
+    padding: 20px 24px;
+}
+
+.name-box {
+    margin-bottom: 4px;
+}
